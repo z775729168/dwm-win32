@@ -20,8 +20,8 @@ static const unsigned int fontsize  = 20;
 
 static const unsigned int borderpx    = 0;        /* border pixel of windows */
 static const unsigned int textmargin  = 15;       /* margin for the text displayed on the bar */
-static bool showbar                   = true;     /* false means no bar */
-static bool topbar                    = true;     /* false means bottom bar */
+static bool showbar                   = false;     /* false means no bar */
+static bool topbar                    = false;     /* false means bottom bar */
 static bool showclock                 = true;     /* false means no clock */
 static bool showutcclock              = true;     /* false means no utc clock */
 static bool showexploreronstart       = false;    /* false means do not show explorer/task bar on start */
@@ -34,6 +34,7 @@ static Rule rules[] = {
     /* class                                 title               processname        tags mask   isfloating      ignoreborder */
     { L"MultitaskingViewFrame",              NULL,                  NULL,               0,          true,           true },
     { L"MSCTFIME UI",                        NULL,                  NULL,               0,          true,           true },
+    { L"TALTRunForm",                        NULL,                  L"ALTRun.exe",      0,          true,           true },
     { L"Microsoft-Windows-SnipperToolbar",   L"Snipping Tool",      NULL,               0,          true,           true },
     { L"Microsoft Text Input Application",   NULL,                  NULL,               0,          true,           true },
     { L"MSO_BORDEREFFECT_WINDOW_CLASS",      NULL,                  NULL,               0,          true,           true },
