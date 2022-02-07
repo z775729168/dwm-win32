@@ -35,6 +35,7 @@ static Rule rules[] = {
     { L"MultitaskingViewFrame",              NULL,                  NULL,               0,          true,           true },
     { L"MSCTFIME UI",                        NULL,                  NULL,               0,          true,           true },
     { NULL,                                  NULL,                  L"ALTRun.exe",      0,          true,           true },
+    { NULL,                                  NULL,                  L"msedge.exe",      0,          true,           true },
     { L"Microsoft-Windows-SnipperToolbar",   L"Snipping Tool",      NULL,               0,          true,           true },
     { L"Microsoft Text Input Application",   NULL,                  NULL,               0,          true,           true },
     { L"MSO_BORDEREFFECT_WINDOW_CLASS",      NULL,                  NULL,               0,          true,           true },
